@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::redirect('/', '/dashboard');
+Route::redirect('/', '/panel');
 
 Route::get('/panel', function () {
     return view('dashboard');
@@ -17,7 +17,7 @@ Route::get('/ejercicios', function () {
 });
 
 Route::get('/agregar-admin', function () {
-    return view('create-admin');
+    return view('add-admin');
 });
 
 Route::get('/recursos-servidor', function () {
