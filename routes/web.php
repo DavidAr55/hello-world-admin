@@ -5,25 +5,25 @@ use Illuminate\Support\Facades\Route;
 Route::redirect('/', '/dashboard');
 
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    return view('panel');
 });
 
 Route::get('/content', function () {
-    return view('content');
+    return view('contenido');
 });
 
 Route::get('/exercises', function () {
-    return view('exercises');
+    return view('ejercicios');
 });
 
 Route::get('/create-admin', function () {
-    return view('create-admin');
+    return view('agregar-admin');
 });
 
-Route::get('/admin-server', function () {
-    return view('admin-server');
+Route::get('/server-usage', function () {
+    return view('recursos-servidor');
 });
 
 Route::get('/logs', function () {
-    return view('logs');
+    return view('registros');
 });

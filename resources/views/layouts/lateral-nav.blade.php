@@ -49,28 +49,28 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link ff-Formula-1" href="dashboard">
+                <a class="nav-link ff-Formula-1" href="panel">
                     <i class="fas fa-columns" style="color: #62bff3;"></i>
                     <span>Dashboard</span></a>
             </li>
 
             <!-- Nav Item - Contenido -->
             <li class="nav-item active">
-                <a class="nav-link ff-Formula-1" href="content">
+                <a class="nav-link ff-Formula-1" href="contenido">
                     <i class="fas fa-list-alt" style="color: #62bff3;"></i>
                     <span>Contenido</span></a>
             </li>
 
             <!-- Nav Item - Ejercicios -->
             <li class="nav-item active">
-                <a class="nav-link ff-Formula-1" href="exercises">
+                <a class="nav-link ff-Formula-1" href="ejercicios">
                     <i class="fas fa-copy" style="color: #62bff3;"></i>
                     <span>Ejercicios</span></a>
             </li>
 
             <!-- Nav Item - Administrador -->
             <li class="nav-item active">
-                <a class="nav-link ff-Formula-1" href="create-admin">
+                <a class="nav-link ff-Formula-1" href="agregar-admin">
                     <i class="fas fa-user-tie" style="color: #62bff3;"></i>
                     <span>Administrador</span></a>
             </li>
@@ -83,8 +83,8 @@
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="logs">Logs</a>
-                        <a class="collapse-item" href="admin-server">Uso del Servidor</a>
+                        <a class="collapse-item" href="recursos-servidor">Logs</a>
+                        <a class="collapse-item" href="registros">Uso del Servidor</a>
                     </div>
                 </div>
             </li>
