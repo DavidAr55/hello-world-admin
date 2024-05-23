@@ -17,7 +17,7 @@ Route::get('/ejercicios', function () {
 });
 
 Route::get('/agregar-admin', function () {
-    return view('create-admin');
+    return view('add-admin');
 });
 
 Route::get('/recursos-servidor', function () {

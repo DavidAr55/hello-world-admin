@@ -37,7 +37,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center " href="dashboard">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center " href="panel">
                 <div class="sidebar-brand-icon rotate-n-15">
                 </div>
                 <img src="{{ asset('images/hello-world-admin-logo.png') }}" style="width: 30px;" alt="hello world admin logo">
@@ -83,8 +83,8 @@
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="recursos-servidor">Logs</a>
-                        <a class="collapse-item" href="registros">Uso del Servidor</a>
+                        <a class="collapse-item" href="registros">Logs</a>
+                        <a class="collapse-item" href="recursos-servidor">Uso del Servidor</a>
                     </div>
                 </div>
             </li>
@@ -114,7 +114,7 @@
             <div id="content">
 
                 <!-- Topbar -->
-                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow fixed-top" id="navbar-top">
 
                     <!-- Sidebar Toggle (Topbar) -->
                     <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
@@ -270,29 +270,25 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Hot Taco Loco</span>
                                 <img class="img-profile rounded-circle"
-                                    src="{{ asset('images/svg/undraw_profile.svg') }}">
+                                    src="{{ asset('images/profile/hot_taco.jpg') }}">
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="userDropdown">
                                 <a class="dropdown-item" href="#">
-                                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Profile
-                                </a>
-                                <a class="dropdown-item" href="#">
                                     <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Settings
+                                    Ajustes
                                 </a>
                                 <a class="dropdown-item" href="#">
                                     <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Activity Log
+                                    Logs
                                 </a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Logout
+                                    Cerrar sesión
                                 </a>
                             </div>
                         </li>
@@ -318,7 +314,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2021</span>
+                        <span>Copyright &copy; Hello-World 2024</span>
                     </div>
                 </div>
             </footer>
@@ -357,6 +353,7 @@
         <script src="{{ asset('js/demo/chart-area-demo.js') }}"></script>
         <script src="{{ asset('js/demo/chart-pie-demo.js') }}"></script>
         <script src="{{ asset('js/demo/chart-bar-demo.js') }}"></script>
+        <script src="{{ asset('js/demo/chart-server-usage.js') }}"></script>
 
         <!-- Custom scripts for all pages-->
         <script src="{{ asset('js/sb-admin-2.min.js') }}"></script>
