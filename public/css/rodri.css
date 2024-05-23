@@ -74,17 +74,18 @@ h6 {
 
 /* Cuadro descripcion */
 .description-container, .users-container {
-    padding: 20px; /* Ajusta el espacio interno */
+    padding: 35px; /* Ajusta el espacio interno */
     background-color: var(--background-1);
     border-radius: var(--border-radius-2);
     border: 1px solid var(--color-5);
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
     display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     width: 400px; /* anchoooooo*/
     height: 400px;/*altoooo*/
+}
+
+.special-box {
+    background-color: #3E97FF; /* Color diferente para el primer cuadro */
 }
 
 .users-container {
@@ -106,7 +107,6 @@ h6 {
     width: 100%; /* anchoooooo*/
     
      /*margin-left: 20px; Alinea a la izquierda */
-   
 }
 
 .grid-container2 {
@@ -117,7 +117,55 @@ h6 {
      /*margin-left: 20px; Alinea a la izquierda */
 }
 
+.text-below {
+    margin-top: 60px; /* Ajusta el espaciado según necesites */
+    margin-left: -90px;
+}
+
+.text-belows {
+    margin-top: 160px; /* Ajusta el espaciado según necesites */
+    margin-left: -40px;
+}
+
+.text-belowsss {
+    margin-top: 160px; /* Ajusta el espaciado según necesites */
+    margin-left: -40px;
+}
+
+.text-below2 {
+    margin-top: 260px; /* Ajusta el espaciado según necesites */
+    margin-left: -183px;
+}
+
+.text-below3 {
+    margin-top: 260px; /* Ajusta el espaciado según necesites */
+    margin-left: 150px;
+}
+
+.text-below4 {
+    margin-top: 120px; /* Ajusta el espaciado según necesites */
+    margin-left: -200px;
+}
 
 
+.square2{
+    padding: 50px; /* Ajusta el espacio interno */
+    background-color: var(--background-1);
+    border-radius: var(--border-radius-2);
+    border: 1px solid var(--color-5);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    display: flex;
+    width: 400px; /* anchoooooo*/
+    height: 400px;/*altoooo*/
+}
 
-
+.description-container-info {
+    padding: 35px; /* Ajusta el espacio interno */
+    background-color: var(--background-1);
+    border-radius: var(--border-radius-2);
+    border: 1px solid var(--color-5);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    display: flex;
+    width: 400px; /* anchoooooo*/
+    height: 400px;/*altoooo*/
+}

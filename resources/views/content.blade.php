@@ -14,22 +14,30 @@
     <div class="row">
         <div class="container-options-dashboard">
             <div class="grid-container">
-                <div class="ff-Inter description-container">
-                    <h1>1</h1>
+                <div class="description-container text-white special-box">
+                    <h1>845</h1>
+                    <span class="text-below">Usuarios registrados</span>
+                    <span class="text-below2">17 pendientes</span>
+                    <span class="text-below3">7%</span>
+                </div>                
+                <div class="description-container">
+                    <h1>$700</h1>
+                    <span class="text-below">Estadisticas</span>
+                
                 </div>
-                <div class="ff-Inter description-container">
-                    <h1>2</h1>
+                <div class="description-container text-black">
+                    <h1>Reportes</h1>
+                    <span class="text-below4 text-blue-700">CPU</span>
+                    <span class="text-belows">Disco</span>
+                    <span class="text-belowss">Red</span>
                 </div>
-                <div class="ff-Inter description-container">
-                    <h1>3</h1>
-                </div>
-                <div class="ff-Inter description-container">
-                    <h1>4</h1>
+                <div class="description-container">
+                    <h1>Usuarios</h1>
                 </div>
             </div>
             <div class="grid-container2">
                 <div class="ff-Inter users-container">
-                    <h1>5</h1>
+                    <h1>Tipos de usuarios</h1>
                 </div>
             </div>
         </div>
