@@ -36,4 +36,88 @@
     --breakpoint-xl: 1200px;
     --font-family-sans-serif: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+    --border-radius-1: 5px;
+    --border-radius-2: 15px;
+    --border-radius-3: 25px;
 }
+
+
+
+/* Contenedor principal */
+.container-fluid {
+    padding-left: 20px; /* Agrega espacio a la izquierda */
+}
+
+/* Título */
+.h3 {
+    margin-bottom: 10px; /* Agrega espacio inferior */
+}
+
+/* Botón de descarga */
+.btn-primary {
+    margin-left: 20px; /* Agrega espacio a la izquierda */
+}
+
+/* Título secundario */
+h6 {
+    margin-left: 20px; /* Agrega espacio a la izquierda */
+}
+
+.container-options-dashboard{
+    display: grid;
+    grid-template-columns: calc(55% - 10px) calc(45% - 10px);
+    gap: 10px;
+    width: 100%;
+    height: auto;
+}
+
+/* Cuadro descripcion */
+.description-container, .users-container {
+    padding: 20px; /* Ajusta el espacio interno */
+    background-color: var(--background-1);
+    border-radius: var(--border-radius-2);
+    border: 1px solid var(--color-5);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 400px; /* anchoooooo*/
+    height: 400px;/*altoooo*/
+}
+
+.users-container {
+    width: 720px; /* anchoooooo*/
+    height: 785px;/*altoooo*/
+}
+
+/* Cuadro grande */
+.description-container.large {
+    grid-column: span 2; /* Ocupa dos columnas */
+    grid-row: span 2; /* Ocupa dos filas */
+}
+
+/* Contenedor de la cuadrícula */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Tres columnas de igual tamaño */
+    gap: 40px 10px; /* Espaciado entre los cuadros */
+    width: 100%; /* anchoooooo*/
+    
+     /*margin-left: 20px; Alinea a la izquierda */
+   
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Tres columnas de igual tamaño */
+    gap: 10px; /* Espaciado entre los cuadros */
+    width: 100%; /* anchoooooo*/
+     /*margin-left: 20px; Alinea a la izquierda */
+}
+
+
+
+
+
