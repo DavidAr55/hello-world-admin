@@ -56,21 +56,21 @@
 
             <!-- Nav Item - Contenido -->
             <li class="nav-item active">
-                <a class="nav-link ff-Formula-1" href="#">
+                <a class="nav-link ff-Formula-1" href="content">
                     <i class="fas fa-list-alt" style="color: #62bff3;"></i>
                     <span>Contenido</span></a>
             </li>
 
             <!-- Nav Item - Ejercicios -->
             <li class="nav-item active">
-                <a class="nav-link ff-Formula-1" href="#">
+                <a class="nav-link ff-Formula-1" href="exercises">
                     <i class="fas fa-copy" style="color: #62bff3;"></i>
                     <span>Ejercicios</span></a>
             </li>
 
             <!-- Nav Item - Administrador -->
             <li class="nav-item active">
-                <a class="nav-link ff-Formula-1" href="#">
+                <a class="nav-link ff-Formula-1" href="create-admin">
                     <i class="fas fa-user-tie" style="color: #62bff3;"></i>
                     <span>Administrador</span></a>
             </li>
@@ -83,8 +83,8 @@
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="#">Logs</a>
-                        <a class="collapse-item" href="#">Uso del Servidor</a>
+                        <a class="collapse-item" href="logs">Logs</a>
+                        <a class="collapse-item" href="admin-server">Uso del Servidor</a>
                     </div>
                 </div>
             </li>
@@ -305,17 +305,8 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
-                    <!-- Page Heading -->
-                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
-                        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
-                                class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
-                    </div>
-
-                    <!-- Content Row -->
-                    <div class="row">
-
-                    </div>
+                    <!-- Content Section -->
+                    @yield('content')
 
                 </div>
                 <!-- /.container-fluid -->
