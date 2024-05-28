@@ -37,3 +37,53 @@
     --font-family-sans-serif: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
+
+.btn-primaryred {
+    color: #fff;
+    background-color: #e6114f;
+    border-color: #b61d49;
+}
+
+.btn-primaryred:hover {
+    color: #fff;
+    background-color: #e6114f;
+    border-color: #b61d49;;
+}
+
+.active-status {
+    color: #1777E7;
+}
+
+.inactive-status {
+    color: #E6114F;
+}
+
+.difficult-basic{
+    color: #1777E7;
+}
+
+.difficult-intermediante{
+    color: #068932;
+}
+.difficult-intermediate-advanced{
+    color: #DDD700;
+}
+.difficult-advanced{
+    color: #EF9C1D;
+}
+
+.difficult-expert{
+    color: #E6114F;
+}
+
+.body-ide-580{
+    width: 100%;
+    height: 260px;
+    
+}
+
+.body-ide-container{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
