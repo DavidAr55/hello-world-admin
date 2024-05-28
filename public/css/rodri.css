@@ -118,6 +118,48 @@ h6 {
 }
 
 
+/*Panel agregar admin*/
+.container-admin,
+.container-fluid-admin,
+.container-sm-admin,
+.container-md-admin,
+.container-lg-admin,
+.container-xl-admin {
+  width: 170%;/*ajustar el ancho del cuadro*/
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  margin-right: auto;
+  margin-left: -560px;/*ajustar el cuadro a la izquierda*/
+  border-radius: 150px; /* agregar bordes redondeados */
+}
+
+.container-password {
+    width: 100%;/*ajustar el ancho del cuadro*/
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    margin-right: auto;
+    margin-left: 0px;/*ajustar el cuadro a la izquierda*/
+}
+
+.text-center-admin {
+    text-align: center;
+    color: black;
+}
+.custom-btn-blue {
+    background: linear-gradient(to right, #6060FF, #62BBF5) !important; /* Degradado azul */
+    color: #FFFFFF !important; /* Color del texto */
+    border: none !important; /* Quitar bordes */
+}
+
+.custom-btn-red {
+    background-color: #E61A4F !important; /* Color rojo personalizado */
+    /*border-color: #dc3545 !important;  Bordes del mismo color rojo */
+    color: #FFFFFF !important; /* Color del texto */
+}
 
 
+.line-above {
+    border-top: 2px solid #A9A9A9; /* Gris oscuro */
+    padding-top: 10px; /* Espaciado opcional para separar el borde del texto */
+}
 

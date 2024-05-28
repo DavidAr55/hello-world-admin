@@ -9,38 +9,38 @@
 
     <!-- Page Heading -->
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-        <h1 class="h3 mb-0 text-gray-800">Agregar un Administrador</h1>
+        <h1 class="h3 mb-0 text-gray-800">Administrador</h1>
         <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
     </div>
 
-    <h6>Hello World - Agregar un Administrador</h6>
+    <h6>Hello World - Administrador</h6>
 
-    <div class="container">
+    <div class="container-admin">
         <div class="row justify-content-center">
             <div class="col-lg-7">
-                <div class="card shadow-lg border-0 rounded-lg mt-5">
+                <div class="card shadow-lg border-0 rounded-lg mt-4">
                     <div class="card-header">
-                        <h3 class="text-center font-weight-light my-4">Crear acceso</h3>
+                        <h3 class="text-center-admin font-weight-light my-4">Agregar un nuevo administrador</h3>
                     </div>
                     <div class="card-body ff-Inter">
                         <form action="" method="POST" enctype="multipart/form-data">
                             <div class="row mb-3">
                                 <div class="col-md-6">
                                     <div class="form-floating mb-3 mb-md-0">
-                                        <input class="form-control" id="inputUserName" name="inputUserName" type="text" placeholder="" value="" required />
-                                        <label for="inputUserName">Nombre de usuario</label>
+                                        <input class="form-control" id="inputUserName" name="inputUserName" type="text" placeholder="Nombre de usuario" value="" required />
+                                        <!--<label for="inputUserName">Nombre de usuario</label>-->
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input class="form-control" id="inputEmail" name="inputEmail" type="email" placeholder="" value="" required />
-                                        <label for="inputEmail">Correo electrónico</label>
+                                        <input class="form-control" id="inputEmail" name="inputEmail" type="email" placeholder="Correo Electronico" value="" required />
+                                        <!--<label for="inputEmail">Correo electrónico</label>-->
                                     </div>
                                 </div>
                             </div>
-                            <div class="container mt-4">
-                                <label class="form-label">
-                                    Condiciones para la contraseña:
+                            <div class="container-password mt-4">
+                                <label class="form-label text-black">
+                                    <h5>Condiciones para la contraseña:</h5>
                                     <ul class="list-unstyled">
                                         <li class="gray-text">Debe contener al menos <b style="font-weight: normal; color: darkblue;">8 caracteres</b>.</li>
                                         <li class="gray-text">Al menos una letra mayúscula <b style="font-weight: normal; color: darkblue;">(A-Z)</b>.</li>
@@ -52,21 +52,20 @@
                             <div class="row mb-3">
                                 <div class="col-md-6">
                                     <div class="form-floating mb-3 mb-md-0">
-                                        <input class="form-control" id="inputPassword name="inputPassword" type="text" placeholder="" value="" required/>
-                                        <label for="inputPassword">Contraseña</label>
+                                        <input class="form-control" id="inputPassword name="inputPassword" type="text" placeholder="Contraseña" value="" required/>
+                                        <!--<label for="inputPassword">Contraseña</label>-->
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input class="form-control" id="inputPasswordConfirm" name="inputPasswordConfirm" type="text" placeholder="" value="" required/>
-                                        <label for="inputPasswordConfirm">Confirmar contraseña</label>
+                                        <input class="form-control" id="inputPasswordConfirm" name="inputPasswordConfirm" type="text" placeholder="Confirmar contraseña" value="" required/>
+                                        <!--<label for="inputPasswordConfirm">Confirmar contraseña</label>-->
                                     </div>
                                 </div>
                             </div>
-
                             <div class="mb-3 mt-4">
-                                <button class="btn btn-primary" type="submit" name="submit">Ingresar admin</button>
-                                <button class="btn btn-danger" type="submit" name="submit">Limpiar formulario</button>
+                                <button class="btn custom-btn-blue" type="submit" name="submit">Ingresar admin</button>
+                                <button class="btn custom-btn-red" type="submit" name="submit">Limpiar formulario</button>
                             </div>
                         </form>
                     </div>
@@ -74,8 +73,89 @@
             </div>
         </div>
     </div>
+
+    <div class="container-admin">
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <div class="card shadow-lg border-0 rounded-lg mt-4">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <span><i class="fas fa-th-large" style="color: #000000;"></i> Administradores registrados previamente</span>
+                    </div>
+                    <div class="card-header d-flex justify-content-between">
+                        <div class="dropdown">
+                            <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                0
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">1</a>
+                                <a class="dropdown-item" href="#">2</a>
+                                <a class="dropdown-item" href="#">3</a>
+                                <a class="dropdown-item" href="#">4</a>
+                                <a class="dropdown-item" href="#">5</a>
+                            </div>
+                            <span>Entries per page</span>
+                        </div>
+                        <form class="form-inline">
+                            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                        </form>
+                    </div>
+                    
+                    <div class="card-body ff-Inter">
+                        <form action="" method="POST" enctype="multipart/form-data">
+                            <div class="table-responsive">
+                                <table class="table table-striped table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Nombre de usuario</th>
+                                            <th scope="col">Email</th>
+                                            <th scope="col">Creación</th>
+                                            <th scope="col">Actualización</th>
+                                            <th scope="col">Acciones</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>DavidAr55</td>
+                                            <td>davidarturoloera@hello-world.com.mx</td>
+                                            <td>01/05/2024 13:29:15</td>
+                                            <td>01/05/2024 13:29:15</td>
+                                            <td>
+                                                <button class="btn custom-btn-blue" type="submit" name="edit">Editar</button>
+                                                <button class="btn custom-btn-red" type="submit" name="delete">Borrar</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Hot_Taco_Loco</td>
+                                            <td>hottaco@hello-world.com.mx</td>
+                                            <td>01/05/2024 13:31:11</td>
+                                            <td>01/05/2024 13:31:11</td>
+                                            <td>
+                                                <button class="btn custom-btn-blue" type="submit" name="edit">Editar</button>
+                                                <button class="btn custom-btn-red" type="submit" name="delete">Borrar</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>rodrigo_ramoss</td>
+                                            <td>rodri@hello-world.com.mx</td>
+                                            <td>01/05/2024 13:33:23</td>
+                                            <td>02/05/2024 10:39:05</td>
+                                            <td>
+                                                <button class="btn custom-btn-blue" type="submit" name="edit">Editar</button>
+                                                <button class="btn custom-btn-red" type="submit" name="delete">Borrar</button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </form>
+                        <div class="line-above">
+                            <h6>Showing 1 to 5 of 5 entries</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-
-
 
 @endsection
