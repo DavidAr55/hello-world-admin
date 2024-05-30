@@ -95,9 +95,9 @@
 
                     <!-- Botones alineados en un div con clase d-flex -->
                     <div class=" mt-4">
-                        <a href="#" class="btn btn-success btn-sm shadow-sm">Ingresar este contenido</a>
-                        <a href="#" class="btn btn-primary btn-sm shadow-sm">Previsualizar contenido</a>
-                        <a href="#" class="btn btn-danger btn-sm shadow-sm">Limpiar Formulario</a>
+                        <a href="#" class="btn custom-btn-blue btn-sm shadow-sm">Ingresar este contenido</a>
+                        <a href="#" class="btn btn-success btn-sm shadow-sm">Previsualizar contenido</a>
+                        <a href="#" class="btn custom-btn-red btn-sm shadow-sm">Limpiar Formulario</a>
                     </div>
                 </div>
             </div>           
@@ -146,217 +146,217 @@
                                 <tr>
                                     <td>Introduccion a C++</td>
                                     <td>Fundamentos de C++</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Ver contenido completo</a></td>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Ver contenido completo</a></td>
                                     <td><span class="difficult-basic">Basico</span></td>
                                     <td><span class="inactive-status">Inactivo</span></td>
                                     <td>2024-05-23 08:30:00</td>
                                     <td>2024-05-23 08:30:00</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Editar</a>
-                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm"> Borrar</a>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Editar</a>
+                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-red shadow-sm"> Borrar</a>
                                     </td>
                                     
                                 </tr>
                                 <tr>
                                     <td>Variables tipos de datos</td>
                                     <td>Fundamentos de C++</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Ver contenido completo</a></td>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Ver contenido completo</a></td>
                                     <td><span class="difficult-intermediate-advanced">Inter Avanzado</span></td>
                                     <td><span class="active-status">Activo</span></td>
                                     <td>2024-05-23 08:30:00</td>
                                     <td>2024-05-23 08:30:00</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Editar</a>
-                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm"></i> Borrar</a>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Editar</a>
+                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-red shadow-sm"></i> Borrar</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Entrada y salida basica (cin y cout)</td>
                                     <td>Fundamentos de C++</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Ver contenido completo</a></td>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Ver contenido completo</a></td>
                                     <td><span class="difficult-intermediante">Intermedio</span></td>
                                     <td><span class="inactive-status">Inactivo</span></td>
                                     <td>2024-05-23 08:30:00</td>
                                     <td>2024-05-23 08:30:00</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Editar</a>
-                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm">Borrar</a>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Editar</a>
+                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-red shadow-sm">Borrar</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Area de un cuadrado</td>
                                     <td>Fundamentos de C++</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Ver contenido completo</a></td>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Ver contenido completo</a></td>
                                     <td><span class="difficult-advanced">Avanzado</span></td>
                                     <td><span class="active-status">Activo</span></td>
                                     <td>2024-05-23 08:30:00</td>
                                     <td>2024-05-23 08:30:00</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Editar</a>
-                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm">Borrar</a>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Editar</a>
+                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-red shadow-sm">Borrar</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Estrucutas de control if y else</td>
                                     <td>Fundamentos de C++</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Ver contenido completo</a></td>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Ver contenido completo</a></td>
                                     <td><span class="difficult-basic">Basico</span></td>
                                     <td><span class="active-status">Activo</span></td>
                                     <td>2024-05-23 08:30:00</td>
                                     <td>2024-05-23 08:30:00</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Editar</a>
-                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm">Borrar</a>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Editar</a>
+                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-red shadow-sm">Borrar</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Bucles while y for</td>
                                     <td>Fundamentos de C++</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Ver contenido completo</a></td>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Ver contenido completo</a></td>
                                     <td><span class="difficult-intermediante">Intermedio</span></td>
                                     <td><span class="active-status">Activo</span></td>
                                     <td>2024-05-23 08:30:00</td>
                                     <td>2024-05-23 08:30:00</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Editar</a>
-                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm">Borrar</a>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Editar</a>
+                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-red shadow-sm">Borrar</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Introduccion a C++</td>
                                     <td>Fundamentos de C++</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Ver contenido completo</a></td>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Ver contenido completo</a></td>
                                     <td><span class="difficult-expert">Experto</span></td>
                                     <td><span class="active-status">Activo</span></td>
                                     <td>2024-05-23 08:30:00</td>
                                     <td>2024-05-23 08:30:00</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Editar</a>
-                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm">Borrar</a>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Editar</a>
+                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-red shadow-sm">Borrar</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Introduccion a C++</td>
                                     <td>Fundamentos de C++</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Ver contenido completo</a></td>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Ver contenido completo</a></td>
                                     <td><span class="difficult-intermediate-advanced">Inter Avanzado</td>
                                     <td><span class="inactive-status">Inactivo</span></td>
                                     <td>2024-05-23 08:30:00</td>
                                     <td>2024-05-23 08:30:00</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Editar</a>
-                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm">Borrar</a>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Editar</a>
+                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-red shadow-sm">Borrar</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Introduccion a C++</td>
                                     <td>Fundamentos de C++</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Ver contenido completo</a></td>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Ver contenido completo</a></td>
                                     <td><span class="difficult-advanced">Avanzado</span></td>
                                     <td><span class="active-status">Activo</span></td>
                                     <td>2024-05-23 08:30:00</td>
                                     <td>2024-05-23 08:30:00</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Editar</a>
-                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm">Borrar</a>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Editar</a>
+                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-red shadow-sm">Borrar</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Introduccion a C++</td>
                                     <td>Fundamentos de C++</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Ver contenido completo</a></td>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Ver contenido completo</a></td>
                                     <td><span class="difficult-intermediante">Intermedio</span></td>
                                     <td><span class="active-status">Activo</span></td>
                                     <td>2024-05-23 08:30:00</td>
                                     <td>2024-05-23 08:30:00</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Editar</a>
-                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm">Borrar</a>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Editar</a>
+                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-red shadow-sm">Borrar</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Introduccion a C++</td>
                                     <td>Fundamentos de C++</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Ver contenido completo</a></td>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Ver contenido completo</a></td>
                                     <td><span class="difficult-intermediate-advanced">Inter Avanzado</span></td>
                                     <td><span class="active-status">Activo</span></td>
                                     <td>2024-05-23 08:30:00</td>
                                     <td>2024-05-23 08:30:00</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Editar</a>
-                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm">Borrar</a>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Editar</a>
+                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-red shadow-sm">Borrar</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Introduccion a C++</td>
                                     <td>Fundamentos de C++</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Ver contenido completo</a></td>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Ver contenido completo</a></td>
                                     <td><span class="difficult-expert">Experto</span></td>
                                     <td><span class="active-status">Activo</span></td>
                                     <td>2024-05-23 08:30:00</td>
                                     <td>2024-05-23 08:30:00</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Editar</a>
-                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm">Borrar</a>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Editar</a>
+                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-red shadow-sm">Borrar</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Introduccion a C++</td>
                                     <td>Fundamentos de C++</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Ver contenido completo</a></td>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Ver contenido completo</a></td>
                                     <td><span class="difficult-advanced">Avanzado</span></td>
                                     <td><span class="active-status">Activo</span></td>
                                     <td>2024-05-23 08:30:00</td>
                                     <td>2024-05-23 08:30:00</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Editar</a>
-                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm">Borrar</a>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Editar</a>
+                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-red shadow-sm">Borrar</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Introduccion a C++</td>
                                     <td>Fundamentos de C++</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Ver contenido completo</a></td>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Ver contenido completo</a></td>
                                     <td><span class="difficult-basic">Basico</span></td>
                                     <td><span class="active-status">Activo</span></td>
                                     <td>2024-05-23 08:30:00</td>
                                     <td>2024-05-23 08:30:00</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Editar</a>
-                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm">Borrar</a>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Editar</a>
+                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-red shadow-sm">Borrar</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Introduccion a C++</td>
                                     <td>Fundamentos de C++</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Ver contenido completo</a></td>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Ver contenido completo</a></td>
                                     <td><span class="difficult-intermediante">Intermedio</span></td>
                                     <td><span class="inactive-status">Inactivo</span></td>
                                     <td>2024-05-23 08:30:00</td>
                                     <td>2024-05-23 08:30:00</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Editar</a>
-                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm">Borrar</a>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Editar</a>
+                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-red shadow-sm">Borrar</a>
                                 </tr>
                                 <tr>
                                     <td>Introduccion a C++</td>
                                     <td>Fundamentos de C++</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Ver contenido completo</a></td>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Ver contenido completo</a></td>
                                     <td><span class="difficult-advanced">Avanzado</span></td>
                                     <td><span class="active-status">Activo</span></td>
                                     <td>2024-05-23 08:30:00</td>
                                     <td>2024-05-23 08:30:00</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Editar</a>
-                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm">Borrar</a>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Editar</a>
+                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-red shadow-sm">Borrar</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Introduccion a C++</td>
                                     <td>Fundamentos de C++</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Ver contenido completo</a></td>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Ver contenido completo</a></td>
                                     <td><span class="difficult-expert">Experto</span></td>
                                     <td><span class="active-status">Activo</span></td>
                                     <td>2024-05-23 08:30:00</td>
                                     <td>2024-05-23 08:30:00</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Editar</a>
-                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm">Borrar</a>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Editar</a>
+                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-red shadow-sm">Borrar</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Introduccion a C++</td>
                                     <td>Fundamentos de C++</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Ver contenido completo</a></td>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Ver contenido completo</a></td>
                                     <td><span class="difficult-advanced">Avanzado</span></td>
                                     <td><span class="active-status">Activo</span></td>
                                     <td>2024-05-23 08:30:00</td>
                                     <td>2024-05-23 08:30:00</td>
-                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Editar</a>
-                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-danger shadow-sm">Borrar</a>
+                                    <td class="text-center"><a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-blue shadow-sm">Editar</a>
+                                    <a href="#" class="d-none d-sm-inline-block btn btn-sm custom-btn-red shadow-sm">Borrar</a>
                                     </td>
                                 </tr>
                             </tbody>
